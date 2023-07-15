@@ -1,0 +1,227 @@
+* {
+    font-family: 'Lumanosimo', cursive;
+}
+
+h1 {
+    font-family: 'Lugrasimo', sans-serif;
+    color: rgb(12, 158, 32);
+    background: #ad5389;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3c1053, #ad5389);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3c1053, #ad5389);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+body {
+    background: #a8c0ff;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3f2b96, #a8c0ff);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3f2b96, #a8c0ff);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.container {
+    margin: 0 auto;
+    width: 80vw;
+}
+
+html {
+    font-size: 18px;
+}
+
+h1 {
+    width: 90%;
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+    color: rgb(194, 4, 36);
+}
+
+p {
+    line-height: 200%;
+}
+
+#vac ul {
+    padding: 0;
+}
+
+#vac ul li {
+    background-color: rgb(23, 179, 179);
+    font-size: 1.5rem;
+    display: inline-block;
+    padding: 20px 30px;
+    margin: 0 10px 10px;
+    border-radius: 30px;
+}
+
+#vac ul li:nth-child(2n) {
+    background-color: #3c1053;
+}
+button {
+    display: inline-block;
+    border-width: 3px;
+    border-color: black;
+    padding: 10px 5px;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #f80101;
+}
+/*button {
+    display: inline-block;
+    padding: 10px 5px;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #f80101;
+}*/
+#zay input,
+textarea,
+select {
+    font-size: 1.1rem;
+}
+#zay input {
+    border-radius: 20px;
+}
+#zay textarea {
+    width: 100%;
+    padding: 10px 25px;
+}
+
+h2+p {
+    background: #1a57dbd7;
+}
+
+h2:hover {
+    color: rgb(196, 0, 196);
+}
+
+a:visited {
+    color: rgb(139, 223, 5);
+}
+
+.main-title strong {
+    font-weight: 400;
+    color: rgb(168, 20, 136);
+    line-height: 100%;
+}
+
+li {
+    background: #9f0dbd;
+    color: rgb(238, 14, 44);
+}
+
+ul {
+    background-color: rgb(18, 155, 197);
+}
+
+header {
+    background-image: url(/11.PNG);
+}
+
+footer {
+    background-image: url(/11.PNG);
+    background-color: rgb(236, 185, 118);
+}
+
+.zay label,
+select,
+input,
+textarea {
+    display: block;
+}
+
+.edu fieldset,
+label,
+input {
+    display: inline-block;
+
+}
+
+.logic-block {
+    padding: 20px 0;
+}
+
+#zay input,
+textarea,
+select {
+    margin-bottom: 25px;
+    display: block;
+}
+
+.big-table td {
+    padding: 15px;
+    text-align: center;
+}
+
+.big-table tr:nth-child(2n) {
+    background: #0dbdae;
+}
+
+.big-table tr:nth-child(2n) td:last-child {
+    border-radius: 0 30px 30px 0;
+}
+
+.big-table tr:nth-child(2n) th {
+    border-radius: 30px 0 0 30px;
+}
+
+/*Стилизация таблицы https://developer.mozilla.org/ru/docs/Learn/CSS/Building_blocks/Styling_tables
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: separate;
+    border: 3px solid purple;
+}
+
+thead th:nth-child(1) {
+    width: 30%;
+}
+
+thead th:nth-child(2) {
+    width: 20%;
+}
+
+thead th:nth-child(3) {
+    width: 15%;
+}
+
+thead th:nth-child(4) {
+    width: 35%;
+}
+
+th,
+td {
+    padding: 15px;
+}
+
+html {
+    font-family: 'helvetica neue', helvetica, arial, sans-serif;
+}
+
+thead th,
+tfoot th {
+    font-family: 'Rock Salt', cursive;
+}
+
+th {
+    letter-spacing: 2px;
+}
+
+td {
+    letter-spacing: 1px;
+}
+
+tbody td {
+    text-align: center;
+}
+
+tfoot th {
+    text-align: center;
+}
+*/
